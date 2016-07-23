@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicbytes.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+    <TextView
+        style="@style/HeaderStyle"
+        android:text="@string/activity_header" />
+
+    <TextView
+        style="@style/SmallHeaderStyle"
+        android:text="@string/small_header"/>
+
+    <TextView
+        android:id="@+id/now_playing_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_1"/>
+
+    <TextView
+        android:id="@+id/artists_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_2"/>
+
+    <TextView
+        android:id="@+id/albums_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_3"/>
+
+    <TextView
+        android:id="@+id/songs_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_4"/>
+
+    <TextView
+        android:id="@+id/genre_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_5"/>
+
+    <TextView
+        android:id="@+id/playlists_textview"
+        style="@style/CategoryStyle"
+        android:text="@string/category_6"/>
+    </LinearLayout>
+
+</ScrollView>

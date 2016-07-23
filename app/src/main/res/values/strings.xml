@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music Bytes</string>
+    <string name="activity_header">music bytes</string>
+    <string name="small_header">collection</string>
+    <string name="category_1">now playing</string>
+    <string name="category_2">artists</string>
+    <string name="category_3">albums</string>
+    <string name="category_4">songs</string>
+    <string name="category_5">genre</string>
+    <string name="category_6">playlists</string>
+</resources>
